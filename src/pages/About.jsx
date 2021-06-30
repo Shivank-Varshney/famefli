@@ -1,5 +1,6 @@
 import React from "react";
-import AboutBanner from "../assets/about-banner.png";
+// import AboutBanner from "../assets/about-banner.png";
+import banner from "../assets/7.0.png";
 import Founder from "../assets/aimee-allison.jpg";
 
 const About = () => {
@@ -11,11 +12,13 @@ const About = () => {
                         <div className="about-us-content">
                             <span>About us</span>
                             <h2>THIS IS OUR TIME</h2>
-                            <p>She the People is creating a politics we have not yet seen. We believe in a politics grounded in love, justice, and belonging. Our aim is to inspire the hearts and minds of everyday people, and turn non-voters into voters. We invite women of color to come together in person and online to tell our stories, host our people, and build community. Our network will continue to grow and live well beyond any one election and ensure that women of color will never be taken for granted again in elections. </p>
+                            <p>
+                            To create a society based on equality and justice with no discrimination based on caste, gender, class, religion, ethnicity, sexual orientation, and age, amongst other factors.
+                            </p>
                         </div>
                     </div>
-                    <div className="col-md-5 px-0 vh-100 d-flex justify-content-end">
-                        <img src={AboutBanner} className="img-fluid" alt="" />
+                    <div className="col-md-5 px-0 vh-100 d-flex">
+                        <img src={banner} className="img-fluid" alt="" />
                     </div>
                 </div>
             </div>
@@ -24,12 +27,10 @@ const About = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-8 mx-auto">
-                            <h3>ABOUT SHE THE PEOPLE</h3>
-                            <p>She the People brings together a national network of women of color —  voters, organizers, movement builders, elected leaders -- to transform our democracy. We unite under shared values — to love our own and others, to make justice the law of the land, to create a country where everyone belongs, and to make this American democracy live up to its greatest promise. As women of color — Black, Latina, Asian American and Pacific Islander, Muslim, Indigenous — we have been at the heart of the justice movements that have shaped this country. And now we are ready to govern. She the People is organizing a multiracial coalition that will lead the nation into a new political and cultural era. In swing states in the South, Southwest, and Midwest we aim to increase the voter turnout of women of color who will be the key to winning the elections.</p>
-                            <p><strong>IN 2020:</strong></p>
-                            <p>Join us online to learn the latest about women of color led efforts on the ground.</p>
-                            <p>Get involved. We’ll be hosting events, such as town halls, debate watch parties, and other gatherings across the country where we can meet and get to know each other. </p>
-                            <p>Our aim is to inspire the hearts and minds of everyday people, and turn non-voters into voters. We invite women of color to come together in person and online to tell our stories, host our people, and build community. Our network will continue to grow and live well beyond any one election and ensure that women of color will never be taken for granted again in elections.</p>
+                            <h3>ABOUT FAMEFLI</h3>
+                            <p>
+                            FAMEFLI was formed with the aim of propagating adult literacy in the slums of INDIA. Literacy was seen as a tool to mobilise marginalised people to solve their own issues. FAMEFLI was established primarily by privileged individuals (eg upper caste, well-educated people from different social organisations) who came from outside the community. Over the last 2 years it has evolved into a grassroots-owned organisation led, shaped and managed predominantly by Scheduled Caste and Muslim women and men.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -51,9 +52,9 @@ const About = () => {
                         </div>
                     </div>
                     <div className="row note">
-                        <div className="col-12">
-                            <h4>JOIN WOMEN OF COLOR ACROSS THE COUNTRY IN MAKING OUR VOICE AND VOTES MATTER IN 2020 AND BEYOND.</h4>
-                            <div className="in-btn">i'm in! → </div>
+                        <div className="col-12 text-center">
+                            <h4>"EDUCATING A GIRL CHILD MEANS EDUCATING THE WHOLE FAMILY"</h4>
+                            <div className="in-btn btn">i'm in! → </div>
                         </div>
                     </div>
                 </div>

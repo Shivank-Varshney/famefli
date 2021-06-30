@@ -1,5 +1,6 @@
 import React from "react";
-import NewsroomBanner from "../assets/newsroom-banner.png";
+// import NewsroomBanner from "../assets/newsroom-banner.png";
+import NewsroomBanner1 from "../assets/girlChild.png";
 import BlogCard from "../components/BlogCard";
 import BlogData from "../components/BlogData";
 
@@ -11,12 +12,12 @@ const Newsroom = () => {
                     <div className="col-md-7 px-0 vh-100 d-flex justify-content-center align-items-center">
                         <div className="about-us-content">
                             <span>NEWSROOM</span>
-                            <h2>SHE THE PEOPLE IN THE NEWS</h2>
+                            <h2 className='text-secondary'> FAMEFLI IN THE NEWS</h2>
                             <p>She the People has worked to elevate the national narrative on the political role of women of color.</p>
                         </div>
                     </div>
-                    <div className="col-md-5 px-0 vh-100 d-flex justify-content-end">
-                        <img src={NewsroomBanner} className="img-fluid" alt="" />
+                    <div className="col-md-5 px-0 vh-100 d-flex">
+                        <img src={NewsroomBanner1} className="img-fluid" style={{maxHeight: '60vh', marginTop: '15vh'}} alt="" />
                     </div>
                 </div>
             </div>

@@ -1,5 +1,6 @@
 import React from "react";
-import WorkBanner from "../assets/work-banner.png";
+// import WorkBanner from "../assets/work-banner.png";
+import work from "../assets/work2.png";
 import Founder from "../assets/aimee-allison.jpg";
 import BlogCard from "../components/BlogCard";
 import BlogData from "../components/BlogData";
@@ -13,11 +14,11 @@ const Work = () => {
                         <div className="about-us-content">
                             <span>Our Work</span>
                             <h2>TAKE ACTION</h2>
-                            <p>She the People is activating and mobilizing women of color across the country to create a politics grounded in love, justice, and belonging. Join us in coming together and taking action. This is our time. </p>
+                            <p>Feminism in India has found its ground from the time of India's  independence. Despite the progress by various movement,  women in India both in rural and non-rural part find  themselves in a stereotype role, where they are not treated  as an equal part of the system. </p>
                         </div>
                     </div>
-                    <div className="col-md-5 px-0 vh-100 d-flex justify-content-end">
-                        <img src={WorkBanner} className="img-fluid" alt="" />
+                    <div className="col-md-5 px-0 vh-100 d-flex">
+                        <img src={work} className="img-fluid" style={{maxHeight: '55vh', marginTop: '23vh'}} alt="" />
                     </div>
                 </div>
             </div>
@@ -59,8 +60,8 @@ const Work = () => {
                         </div>
                     </div>
                     <div className="row note">
-                        <div className="col-12">
-                            <h4>JOIN WOMEN OF COLOR ACROSS THE COUNTRY IN MAKING OUR VOICE AND VOTES MATTER IN 2020 AND BEYOND.</h4>
+                        <div className="col-12 text-center">
+                            <h4> "EDUCATING A GIRL CHILD MEANS EDUCATING THE WHOLE FAMILY" </h4>
                             <div className="in-btn">i'm in! → </div>
                         </div>
                     </div>

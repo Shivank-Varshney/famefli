@@ -1,11 +1,15 @@
 import React from "react";
-import ContactBanner from "../assets/contact-banner.png";
-import Contact1 from "../assets/contact-1.png";
+import ContactBanner from "../assets/1.png";
+// import Contact1 from "../assets/contact-1.png";
 import Contact2 from "../assets/contact-2.png";
 import Thumbnail from "../assets/Thumbnail.png";
+import feminism1 from "../assets/feminism1.png";
+import feminism2 from "../assets/Feminism2.png";
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import donate from "../assets/8.png";
+import joinus from "../assets/3.png";
 
 const JoinTheMovement = () => {
     return(
@@ -42,16 +46,19 @@ const JoinTheMovement = () => {
                             </form>
                         </div>
                     </div>
-                    <div className="col-md-5 px-0 vh-100 d-flex justify-content-end">
+                    <div className="col-md-5 px-0 vh-100 d-flex">
                         <img src={ContactBanner} className="img-fluid" alt="" />
                     </div>
                 </div>
             </div>
 
             <div className="container-fluid">
-                <div className="row">
-                    <div className="col-12 p-0">
-                        <img src={Thumbnail} className="img-fluid" alt="thumbnail" />
+                <div className="row" style={{backgroundColor: 'rgb(286,237,14)'}}>
+                    <div className="col-6 p-0">
+                        <img src={feminism1} className="img-fluid" alt="thumbnail" />
+                    </div>
+                    <div className='col-6 p-0'>
+                        <img src={feminism2} className="img-fluid" alt="thumbnail" />
                     </div>
                 </div>
             </div>
@@ -60,7 +67,7 @@ const JoinTheMovement = () => {
                 <div className="container">
                     <div className="row pt-5">
                         <div className="col-md-6 d-flex justify-content-center align-items-center p-5 order-md-1 order-2">
-                            <img src={Contact1} className="img-fluid p-md-5" alt="" />
+                            <img src={donate} className="img-fluid p-md-5" alt="" />
                         </div>
                         <div className="col-md-6 d-flex justify-content-center flex-column align-items-start order-md-2 order-1">
                             <h3>1. Donate</h3>
@@ -80,7 +87,7 @@ const JoinTheMovement = () => {
                             </div>
                         </div>
                         <div className="col-md-6 d-flex justify-content-center align-items-center p-5">
-                            <img src={Contact2} className="img-fluid p-md-5" alt="" />
+                            <img src={joinus} className="img-fluid p-md-5" alt="" />
                         </div>
                     </div>
                     <div className="row pb-5">
@@ -89,7 +96,7 @@ const JoinTheMovement = () => {
                         <div className="col-md-6 d-flex justify-content-center flex-column align-items-start">
                             <h3>3. GET YOUR ORGANIZATION INVOLVED</h3>
                             <p>Our vision for this political home for one million women of color will only be possible with the partnership of organizations like yours. She the People invites your organization to join us as a She the People 2020 Partner to connect women of color in your network into our national home.  As She the People 2020 Partners, local groups and leaders will be deeply informed about issues that impact women of color, gain increased national visibility, and engage with national events. C3 and C4 partnership opportunities are available. </p>
-                            <div className="in-btn">sign my organisation up! →</div>
+                            <div className="btn in-btn">sign my organisation up! →</div>
                         </div>
                     </div>
                 </div>
